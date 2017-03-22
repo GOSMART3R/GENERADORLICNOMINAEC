@@ -11,6 +11,7 @@ public class GeneradorCodigoActivacionEc {
         
         //LOS DATOS QUE SE RECIBEN SON DE LA FORMA /1714688213001/GOSMART3R/L8/E1800/ DONDE 
 		//L ES EL NUMERO DE LICENCIAS ,Y E NUMERO DE EMPLEADOS
+		//SE DEBERIA UTILIZAR OTRO METODO DE ENCRIPTACION
 		
         String mensaje="/1714688213001/GOSMART3R/L8/E1800/"; 
         char array[]=mensaje.toCharArray(); 
